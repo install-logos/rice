@@ -182,7 +182,7 @@ bindsym $MOD+SHIFT+Down exec amixer set Master 5.0%-
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
  bar {
-    status_command     i3bar
+    status_command     $HOME/.i3/i3bar-conky
     position           top
     workspace_buttons  yes
 
