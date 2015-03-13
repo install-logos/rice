@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#JSON header
+echo '{"version":1}'
+
+#Endless array
+echo '['
+
+#First array hack
+echo '[],'
+
+#Conky exec and config path
+exec conky -c $HOME/.conkyrc
