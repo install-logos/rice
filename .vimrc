@@ -455,10 +455,8 @@ set nocompatible
         \ $HOME . "/.vimrc.last", $HOME . "/.vimrc.plugins"
         \ ]
     let g:startify_custom_header = [
-        \ '   Author:      Perale Thomas',
-        \ '   Matricule    000408160',
-        \ '   Homepage:    http://github.com/thomacer',
-        \ '   Source:      http://github.com/thomacer',
+        \ '   Author:      logos',
+        \ '   Homepage:    https://github.com/install-logos/logos',
         \ ''
         \ ]
 
