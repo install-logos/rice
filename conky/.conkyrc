@@ -18,8 +18,8 @@ TEXT
 # Just colored uptime, date and time for beggining discussion needed here what to add
 # Would like to see $cpugraph included here but for some reason i still cant make it working on my box
 
-[{"full_text": "Uptime $uptime_short " , "separator": false, "separator_block_width":3, "color" : "#ECF0F1" },
- {"full_text": "${time %m.%d.%Y}", "separator": false, "separator_block_width":3, "color":"\#d4d8d8"},
- {"full_text": "${time %I:%M %P}", "separator": false, "separator_block_width":3, "color":"\#bcc0c0"}
+[{"full_text": "Uptime $uptime_short", "separator": false, "separator_block_width":2, "color":"\#ecf0f1"},
+ {"full_text": "${time %m.%d.%Y}", "separator": false, "separator_block_width":2, "color":"\#d4d8d8"},
+ {"full_text": "${time %I:%M %P}", "separator": false, "separator_block_width":2, "color":"\#bcc0c0"}
 
 ],
