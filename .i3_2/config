@@ -160,7 +160,7 @@ client.focused_inactive #ffffff #000000 #555555 #000000
 client.urgent           #ffffff #000000 #555555 #000000
 
 
-### Init i3bar
+### Init i3bar and set colors
 bar {
   status_command i3status -c ~/.i3/i3status.conf
   strip_workspace_numbers yes
