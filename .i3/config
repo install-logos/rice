@@ -196,9 +196,3 @@ bindsym $MOD+SHIFT+Down exec amixer set Master 5.0%-
         urgent_workspace   $white  $urgentred
     }
 }
-
-
-exec --no-startup-id nm-applet
-
-exec_always --no-startup-id feh --bg-center ~/.i3/wallpaper.jpg
-exec mpd
