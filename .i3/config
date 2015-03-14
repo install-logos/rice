@@ -1,6 +1,10 @@
 # vim:filetype=i3
 
 
+### Font
+font -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+
+
 ### i3-colors
 ## unfinished/placeholder colors!
 
@@ -46,10 +50,6 @@ for_window [class="Zathura"] border 1pixel
 
 ### Modkey
 set $mod Mod4
-
-
-### Font
-font -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
 
 
 ### Windowtype
