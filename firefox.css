@@ -1,5 +1,8 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
+/* JSchilli1's Firefox css with changed font
+   https://github.com/JSchilli1/dotfiles */
+
 /* Hide clutter */
 
 .toolbarbutton-menubutton-dropmarker,
@@ -60,7 +63,7 @@ statusbarpanel {
 }
 
 tab {
-  font-family: "sans-serif" !important;
+  font-family: "terminus" !important;
   font-size: 9pt !important;
   text-align: center !important;
 }
@@ -115,7 +118,7 @@ tab {
   background: none !important;
   border: none !important;
   color: #d8f0f8 !important;
-  font-family: "sans-serif" !important;
+  font-family: "terminus" !important;
   font-size: 9pt !important;
   height: 12px !important;
   margin-left: 36px !important;
