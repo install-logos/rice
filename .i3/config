@@ -9,10 +9,10 @@ font -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
 ## unfinished/placeholder colors!
 
 #name                   #top    #border #text
-client.focused          #402e2e #978965 #402e2e #978965
-client.unfocused        #402e2e #402e2e #978965 #402e2e
-client.focused_inactive #402e2e #402e2e #978965 #402e2e
-client.urgent           #402e2e #402e2e #978965 #402e2e
+client.focused          #263238 #37474f #cccccc #37474f
+client.unfocused        #101820 #101820 #999999 #263238
+client.focused_inactive #101820 #101820 #37474f #101820
+client.urgent           #101820 #701625 #37474f #101820
 
 
 ### Init i3bar and set colors
@@ -21,14 +21,15 @@ bar {
   strip_workspace_numbers yes
 
   colors {
-	    statusline  #978965
-	    background  #1f1f1f
+	statusline  #ffffff
+	background  #101820
+      separator #ffffff
 
       #name              #border #bg     #text
-	    focused_workspace  #978965 #402e2e #978965
-	    active_workspace   #402e2e #402e2e #978965
-	    inactive_workspace #402e2e #402e2e #978965
-	    urgent_workspace   #402e2e #402e2e #978965
+      focused_workspace  #4d8080 #4d8080 #ffffff
+      active_workspace   #101820 #101820 #ffffff
+      inactive_workspace #101820 #101820 #788088
+      urgent_workspace   #701625 #701625 #ffffff
   }
 }
 
